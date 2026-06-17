@@ -10,3 +10,9 @@ All notable changes to the "klikrun" extension will be documented in this file.
 - Automatic package manager detection (npm, yarn, pnpm, bun)
 - Monorepo/nested `package.json` support
 - Zero-configuration setup
+
+## [0.0.2] - 2026-06-17
+
+### Updated
+
+- Optimized bundle size by removing & optimizing assets

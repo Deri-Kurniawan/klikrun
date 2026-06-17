@@ -2,7 +2,7 @@
   "name": "klikrun",
   "displayName": "klikrun",
   "description": "Inline Run buttons for npm/yarn/pnpm/bun scripts in package.json.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "deri",
   "icon": "assets/images/icon-128x128.png",
   "author": {
