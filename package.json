@@ -1,0 +1,52 @@
+{
+  "name": "klikrun",
+  "displayName": "klikrun",
+  "description": "Inline Run buttons for npm/yarn/pnpm/bun scripts in package.json.",
+  "version": "0.0.1",
+  "publisher": "deri",
+  "icon": "assets/images/icon-128x128.png",
+  "author": {
+    "name": "Deri Kurniawan",
+    "email": "hi@derikn.com",
+    "url": "https://www.derikn.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Deri-Kurniawan/klikrun.git"
+  },
+  "homepage": "https://github.com/Deri-Kurniawan/klikrun",
+  "bugs": {
+    "url": "https://github.com/Deri-Kurniawan/klikrun/issues"
+  },
+  "engines": {
+    "vscode": "^1.120.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onLanguage:json"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "klikrun.runScript",
+        "title": "Run npm/yarn/pnpm/bun script"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.120.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "22.x",
+    "eslint": "^9.39.3",
+    "@vscode/test-cli": "^0.0.12",
+    "@vscode/test-electron": "^2.5.2"
+  }
+}
